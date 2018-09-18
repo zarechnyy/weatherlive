@@ -17,6 +17,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var data = ["cat", "dog", "apple", "weather"]
     
     
+    
     var filteredData = [String]()
     
     var isSearching = false
