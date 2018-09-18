@@ -15,6 +15,8 @@
 		2EB3C5DF214FF4F5004B7E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB3C5DD214FF4F5004B7E86 /* LaunchScreen.storyboard */; };
 		2EB3C5EA214FF4F6004B7E86 /* weatherliveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3C5E9214FF4F6004B7E86 /* weatherliveTests.swift */; };
 		2EB3C5F5214FF4F6004B7E86 /* weatherliveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3C5F4214FF4F6004B7E86 /* weatherliveUITests.swift */; };
+		2EB3C60A215003D4004B7E86 /* parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3C609215003D4004B7E86 /* parser.swift */; };
+		2EB3C60C2150EB87004B7E86 /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3C60B2150EB87004B7E86 /* DataCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2EB3C5F0214FF4F6004B7E86 /* weatherliveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherliveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB3C5F4214FF4F6004B7E86 /* weatherliveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherliveUITests.swift; sourceTree = "<group>"; };
 		2EB3C5F6214FF4F6004B7E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB3C609215003D4004B7E86 /* parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parser.swift; sourceTree = "<group>"; };
+		2EB3C60B2150EB87004B7E86 /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				2EB3C5D1214FF4F4004B7E86 /* AppDelegate.swift */,
-				2EB3C5D3214FF4F4004B7E86 /* ViewController.swift */,
+				2EB3C6042150037E004B7E86 /* Controller */,
 				2EB3C5D5214FF4F4004B7E86 /* Main.storyboard */,
 				2EB3C5DB214FF4F5004B7E86 /* Assets.xcassets */,
+				2EB3C608215003BA004B7E86 /* Model */,
 				2EB3C5DD214FF4F5004B7E86 /* LaunchScreen.storyboard */,
 				2EB3C5E0214FF4F5004B7E86 /* Info.plist */,
 				2EB3C5D8214FF4F4004B7E86 /* weatherlive.xcdatamodeld */,
@@ -126,6 +131,23 @@
 				2EB3C5F6214FF4F6004B7E86 /* Info.plist */,
 			);
 			path = weatherliveUITests;
+			sourceTree = "<group>";
+		};
+		2EB3C6042150037E004B7E86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2EB3C5D3214FF4F4004B7E86 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2EB3C608215003BA004B7E86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2EB3C60B2150EB87004B7E86 /* DataCell.swift */,
+				2EB3C609215003D4004B7E86 /* parser.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB3C60A215003D4004B7E86 /* parser.swift in Sources */,
 				2EB3C5D4214FF4F4004B7E86 /* ViewController.swift in Sources */,
 				2EB3C5DA214FF4F4004B7E86 /* weatherlive.xcdatamodeld in Sources */,
+				2EB3C60C2150EB87004B7E86 /* DataCell.swift in Sources */,
 				2EB3C5D2214FF4F4004B7E86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
